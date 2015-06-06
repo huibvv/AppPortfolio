@@ -16,6 +16,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         Button sportifyStreamerButton = (Button)findViewById(R.id.button_spotify_streamer);
         sportifyStreamerButton.setOnClickListener(mOnSpotifyClickListener);
 
